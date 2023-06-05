@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Under17 Male</title>
+<style>
+/* body {
+        font-family: "Baloo Bhai", cursive;
+        color: black;
+        margin-left: -900px;
+        padding: 70px;
+        background: url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        background-position: center;
+} */
+body{
+    background-color: black;
+    color: white;
+}
+
+        .left{
+        display: inline-block;
+        position: fixed;
+        left: 34px;
+        top: 20px;
+
+        }
+        .left img{
+        width: 95px;
+        filter: invert(100%);
+        }
+        .left.div{
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center; 
+        }
+        .logo {
+position: absolute;
+top: 20px;
+left: 20px;
+width: 100px;
+height: 100px;
+background-image: url("img/gym.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+.gif-line {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.gif-line img {
+			margin: 10px 0;
+			max-width: 100%;
+			height: auto;
+		}
+        @media screen and (min-width: 768px) {
+			.gif-line {
+				flex-direction: column;
+				justify-content: center;
+			}
+
+			.gif-line img {
+				margin: 0 10px;
+				max-width: 25%;
+			}
+		}
+        
+        .header1 {
+          background-color: black;
+          position:fixed;
+          top:0;
+          right:0;
+          transform:translate(-1%,0);
+          color:white;
+         
+          
+        }
+        button{
+            font-family: 'Baloo Bhai',cursive;
+        /* margin: -1px 9px; */
+        color: skyblue;
+        background-color: red;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        }
+</style>
+</head>
+<body>
+    <div style = "position:fixed; left:24px; top:119px;color:white; font-family: 'Baloo Bhai',cursive;">
+       <strong>Gym Visuals</strong>
+     </div>
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+        <img src="gym.png" alt="" class="src">
+       
+        </div>
+    </header>
+
+
+    <div class="header1">
+        <h1>Timer for your Exercise</h1>
+        <label for="timer-input">Set Timer (in seconds):</label>
+        <input type="number" id="timer-input">
+        <button id="start-btn">Start Timer</button>
+        <!-- <audio id="start-sound" src="start-sound.mp3"></audio>
+        <audio id="end-sound" src="start-sound.mp3"></audio> -->
+        <div id="timer-display"></div>
+      </div>
+      
+    
+      <script src="timer.js"></script>
+      <center><i><h1 style="font-size: 20px;font-family:inherit;">Your age is under 17 Years, this is your growing age so </h1></i></center>
+      <center><i><h1 style="font-size: 20px;font-family:inherit;">you shouldn't lift heavy weights.</h1></i></center>
+      <center><i><h1 style="font-size: 20px;font-family:inherit;">These are Stretching Exercises For You to maintain your body!</h1></i></center>
+      <center><i><h1 style="font-size: 20px;font-family:inherit;">"Get ready to have an amazing workout!"</h1></i></center>
+      <br>
+      <br>
+      <br>
+    <div class="gif-line">
+        <img src="biceps3.gif" alt="GIF 3">
+        <div class="content">
+            <center><h2>Side Plank
+            </h2></center> 
+            <dt>CATEGORY:</dt>
+            <dd>Abs</dd>
+<dt>DESCRIPTION:</dt>
+<dd>Works your obliques and helps stabilize your spine. Lie on your side and support your </dd>     
+<dd>body between your forearm and knee to your feet.</dd>
+
+
+<dt>EQUIPMENT:</dt>
+
+<dd>none (bodyweight exercise)</dd>
+
+<dt>PRIMARY MUSCLE:</dt>
+
+<dd>Obliquus externus abdominis</dd>
+
+<dt>DEFAULT REPS:</dt>
+<dd>7</dd>
+        </div>
+        <br>
+        <br>
+            <img src="upper1.gif" alt="GIF 1"> 
+            <div class="content">
+                <b><center><h2>Chin Up</h2></center></b>
+                <b><dt>CATEGORY:</dt></b>
+                <dd>Chest</dd>
+    <dt>DESCRIPTION:</dt>
+    <dd>Assume a support position, perform a push up, make sure to engage your</dd>
+    <dd> core while performing each repetition.
+    </dd>
+    
+    
+    <dt>EQUIPMENT:</dt>
+    
+    <dd>none (bodyweight exercise)</dd>
+    
+    <dt>PRIMARY MUSCLE:</dt>
+    
+    <dd>Pectoralis major</dd>
+    
+    <dt>DEFAULT REPS:</dt>
+    <dd>10</dd>
+            </div>
+            <br>
+            <br>
+            <img src="corex1.gif" alt="GIF 1"> 
+   <div class="content">
+            <center><h2>Crunches</h2></center>
+<dt>CATEGORY:</dt>
+<dd>Abs</dd>
+<dt>DESCRIPTION:</dt>
+<dd>Sit and lay back on a swiss ball, position feet slightly wider then</dd>
+<dd> shoulder width, perform a half-crunch fully engaging the core.</dd>
+<dt>EQUIPMENT:</dt>
+<dd>Swiss Ball</dd>
+<dt>PRIMARY MUSCLE:</dt>
+<dd>Biceps femoris</dd>
+<dt>DEFAULT REPS:</dt>
+<dd>20</dd>
+</div>
+<br>
+<br>
+<img src="leg3.gif" alt="GIF 3">
+        <div class="content">
+            <center><h2>Air Squat
+            </h2></center> 
+            <dt>CATEGORY:</dt>
+            <dd>leg</dd>
+<dt>DESCRIPTION:</dt>
+<dd>Perform a squat with no resistance, make sure stance is slightly wider then shoulder width and feet are turned out.
+</dd>     
+
+<dt>EQUIPMENT:</dt>
+
+<dd>none(bodyweight exercise)</dd>
+
+<dt>PRIMARY MUSCLE:</dt>
+
+<dd>Biceps brachii</dd>
+
+<dt>DEFAULT REPS:</dt>
+<dd>10</dd>
+        </div>
+        
+    </div>
+</body>
+</html>

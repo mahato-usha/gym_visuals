@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>leg</title>
+<style>
+/* body {
+        font-family: "Baloo Bhai", cursive;
+        color: black;
+        margin-left: -900px;
+        padding: 70px;
+        background: url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        background-position: center;
+} */
+body{
+    background-color: black;
+    color: white;
+}
+
+        .left{
+        display: inline-block;
+        position: fixed;
+        left: 34px;
+        top: 20px;
+
+        }
+        .left img{
+        width: 95px;
+        filter: invert(100%);
+        }
+        .left.div{
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+        }
+        .logo {
+position: absolute;
+top: 20px;
+left: 20px;
+width: 100px;
+height: 100px;
+background-image: url("img/gym.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+/* img {
+position: absolute;
+top: -2px;
+left: -13px;
+height: 100px;
+width: auto;
+} */
+.gif-line {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.gif-line img {
+			margin: 10px 0;
+			max-width: 100%;
+			height: auto;
+		}
+        @media screen and (min-width: 768px) {
+			.gif-line {
+				flex-direction: column;
+				justify-content: center;
+			}
+
+			.gif-line img {
+				margin: 0 10px;
+				max-width: 25%;
+			}
+		}
+
+        
+        .header1 {
+          background-color: black;
+          position:fixed;
+          top:0;
+          right:0;
+          transform:translate(-1%,0);
+          color:white;
+         
+          
+        }
+        button{
+            font-family: 'Baloo Bhai',cursive;
+        /* margin: -1px 9px; */
+        color: skyblue;
+        background-color: red;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        }
+
+</style>
+</head>
+<body>
+    <div style = "position:fixed; left:24px; top:119px;color:white; font-family: 'Baloo Bhai',cursive;">
+       <strong>Gym Visuals</strong>
+     </div>
+    <header class="header">
+        <!--left box for logo-->
+
+        <div class="left">
+        <img src="gym.png" alt="" class="src">
+       
+        </div>
+    </header>
+
+    <div class="header1">
+        <h1>Timer for your Exercise</h1>
+        <label for="timer-input">Set Timer (in seconds):</label>
+        <input type="number" id="timer-input">
+        <button id="start-btn">Start Timer</button>
+        <!-- <audio id="start-sound" src="start-sound.mp3"></audio>
+        <audio id="end-sound" src="start-sound.mp3"></audio> -->
+        <div id="timer-display"></div>
+      </div>
+      
+    
+      <script src="timer.js"></script>
+      <center><u><i><h1 style="font-size: 94px;font-family:inherit;">Leg</h1></i></u></center>
+	<div class="gif-line">
+		<img src="leg1.gif" alt="GIF 1"> 
+        <div class="content">
+            <center><h2></h2></center>
+            <dt>CATEGORY:</dt>
+            <dd>Leg</dd>
+<dt>DESCRIPTION:</dt>
+<dd>Place a barbell in a rack just below shoulder-height. Dip under the bar to put it behind the</dd>
+<dd>neck across the top of the back, and grip the bar with the hands wider than 
+
+</dd>
+<dd>shoulder-width apart</dd>
+
+
+<dt>EQUIPMENT:</dt>
+
+<dd>Barbell</dd>
+
+<dt>PRIMARY MUSCLE:</dt>
+
+<dd>Anterior deltoid</dd>
+
+<dt>DEFAULT REPS:</dt>
+<dd>7</dd>
+        </div>
+        <br>
+        <br>
+		<img src="leg2.gif" alt="GIF 2">
+        <div class="content">
+            <center><h2>Cycling</h2></center> 
+            <dt>CATEGORY:</dt>
+            <dd>Leg</dd>
+<dt>DESCRIPTION:</dt>
+<dd>Start off pedaling at a low intensity for 5-10 minutes. Switch to medium intensity for 3-5</dd>
+<dd>minutes.Alternate between high intensity (1-3 minutes) and medium intensity </dd>
+<dd>(3-5 minutes) for the next 20 to 30 minutes. Cool down by pedaling at a low </dd>
+<dd>intensity for 5-10 minutes.</dd>
+
+<dt>EQUIPMENT:</dt>
+
+<dd>Gym Cycle</dd>
+
+<dt>PRIMARY MUSCLE:</dt>
+
+<dd>Anterior deltoid</dd>
+
+<dt>DEFAULT REPS:</dt>
+<dd>15 minutes</dd>
+        </div>
+        <br>
+        <br>
+		<img src="leg3.gif" alt="GIF 3">
+        <div class="content">
+            <center><h2>Air Squat
+            </h2></center> 
+            <dt>CATEGORY:</dt>
+            <dd>leg</dd>
+<dt>DESCRIPTION:</dt>
+<dd>Perform a squat with no resistance, make sure stance is slightly wider then shoulder 
+</dd>     
+<dd>width and feet are turned out.</dd>
+
+<dt>EQUIPMENT:</dt>
+
+<dd>none(bodyweight exercise)</dd>
+
+<dt>PRIMARY MUSCLE:</dt>
+
+<dd>Biceps brachii</dd>
+
+<dt>DEFAULT REPS:</dt>
+<dd>10</dd>
+        </div>
+        <br>
+        <br>
+        <img src="leg4.gif" alt="GIF 4">
+        <div class="content">
+            <center><h2>Mountain climbers
+
+            </h2></center> 
+            <dt>CATEGORY:</dt>
+            <dd>leg</dd>
+<dt>DESCRIPTION:</dt>
+<dd>In a front support position, bring the right knee to the chest followed by the left knee.</dd>
+
+
+<dt>EQUIPMENT:</dt>
+
+<dd>none(bodyweight exercise</dd>
+
+<dt>PRIMARY MUSCLE:</dt>
+
+<dd>Anterior deltoid
+
+</dd>
+
+<dt>DEFAULT REPS:</dt>
+<dd>10</dd>
+        </div>
+	</div>
+</body>
+</html>
+</body>
+</html>

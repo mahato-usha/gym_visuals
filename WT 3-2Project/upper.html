@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Upper</title>
+<style>
+/* body {
+        font-family: "Baloo Bhai", cursive;
+        color: black;
+        margin-left: -900px;
+        padding: 70px;
+        background: url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        background-position: center;
+} */
+body{
+    background-color: black;
+    color: white;
+}
+
+        .left{
+        display: inline-block;
+        position: fixed;
+        left: 34px;
+        top: 20px;
+
+        }
+        .left img{
+        width: 95px;
+        filter: invert(100%);
+        }
+        .left.div{
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+        }
+        .logo {
+position: absolute;
+top: 20px;
+left: 20px;
+width: 100px;
+height: 100px;
+background-image: url("img/gym.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+/* img {
+position: absolute;
+top: -2px;
+left: -13px;
+height: 100px;
+width: auto;
+} */
+.gif-line {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.gif-line img {
+			margin: 10px 0;
+			max-width: 100%;
+			height: auto;
+		}
+        @media screen and (min-width: 768px) {
+			.gif-line {
+				flex-direction: column;
+				justify-content: center;
+			}
+
+			.gif-line img {
+				margin: 0 10px;
+				max-width: 25%;
+			}
+		}
+        .content{
+            color:white;
+            font-size: 20px;
+        }
+
+        
+        .header1 {
+          background-color: black;
+          position:fixed;
+          top:0;
+          right:0;
+          transform:translate(-1%,0);
+          color:white;
+        }
+        button{
+            font-family: 'Baloo Bhai',cursive;
+        /* margin: -1px 9px; */
+        color: skyblue;
+        background-color: red;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        }
+
+</style>
+</head>
+<body>
+    <div style = "position:fixed; left:24px; top:119px;color:white; font-family: 'Baloo Bhai',cursive;">
+       <strong>Gym Visuals</strong>
+     </div>
+    <header class="header">
+        <!--left box for logo-->
+
+        <div class="left">
+        <img src="gym.png" alt="" class="src">
+       
+        </div>
+    </header>
+
+
+    <div class="header1">
+        <h1>Timer for your Exercise</h1>
+        <label for="timer-input">Set Timer (in seconds):</label>
+        <input type="number" id="timer-input">
+        <button id="start-btn">Start Timer</button>
+        <!-- <audio id="start-sound" src="start-sound.mp3"></audio>
+        <audio id="end-sound" src="start-sound.mp3"></audio> -->
+        <div id="timer-display"></div>
+      </div>
+      
+    
+      <script src="timer.js"></script>
+      <center><u><i><h1 style="font-size: 55px;font-family:inherit;">Upper Body Strength</h1></i></u></center>
+
+	<div class="gif-line">
+		<img src="upper1.gif" alt="GIF 1"> 
+        <div class="content">
+            <b><center><h2>Chin Up</h2></center></b>
+            <b><dt>CATEGORY:</dt></b>
+            <dd>Chest</dd>
+<dt>DESCRIPTION:</dt>
+<dd>Assume a support position, perform a push up, make sure to engage </dd>
+<dd>your core while performing each repetition.</dd>
+
+
+<dt>EQUIPMENT:</dt>
+
+<dd>none (bodyweight exercise)</dd>
+
+<dt>PRIMARY MUSCLE:</dt>
+
+<dd>Pectoralis major</dd>
+
+<dt>DEFAULT REPS:</dt>
+<dd>10</dd>
+        </div> 
+        <br>
+        <br>
+		<img src="upper2.gif" alt="GIF 2">
+        <div class="content">
+            <center><h2>Flat bench press
+            </h2></center> 
+            <dt>CATEGORY:</dt>
+            <dd>Chest</dd>
+<dt>DESCRIPTION:</dt>
+<dd>On you bench press rack of choice, set-up in flat configuration,</dd>
+<dd>use a barbell to press up and down, make sure to have a spotter.</dd>     
+
+
+<dt>EQUIPMENT:</dt>
+
+<dd>Barbell</dd>
+
+<dt>PRIMARY MUSCLE:</dt>
+
+<dd>Pectoralis major</dd>
+
+<dt>DEFAULT REPS:</dt>
+<dd>8</dd>
+        </div>
+        <br>
+        <br>
+		<img src="upper3.gif" alt="GIF 3">
+        <div class="content">
+            <center><h2>Dumbbell incline curl
+            </h2></center> 
+            <dt>CATEGORY:</dt>
+            <dd>Arms</dd>
+<dt>DESCRIPTION:</dt>
+<dd>With elbows back to sides, raise one dumbbell and rotate forearm until </dd>
+<dd>forearm is vertical and palm faces shoulder.Lower to original position</dd>
+<dd> and repeat with opposite arm. Continue to alternate between sides.</dd>
+
+
+<dt>EQUIPMENT:</dt>
+
+<dd>Dumbbell</dd>
+
+<dt>PRIMARY MUSCLE:</dt>
+
+<dd>Anterior deltoid</dd>
+
+<dt>DEFAULT REPS:</dt>
+<dd>8</dd>
+        </div>
+        <br>
+        <br>
+        <img src="upper4.gif" alt="GIF 4">
+        <div class="content">
+            <center><h2>Bent Over Rowing
+
+            </h2></center> 
+            <dt>CATEGORY:</dt>
+            <dd>Back</dd>
+<dt>DESCRIPTION:</dt>
+<dd>Grab the barbell with a wide grip (slightly more than shoulder wide)</dd>
+<dd>and lean forward.Don't swing with your body and keep your arms next</dd>
+<dd>to your body.</dd>
+
+
+<dt>EQUIPMENT:</dt>
+
+<dd>Barbell</dd>
+
+<dt>PRIMARY MUSCLE:</dt>
+
+<dd>Latissimus dorsi
+
+</dd>
+
+<dt>DEFAULT REPS:</dt>
+<dd>6</dd>
+        </div>
+	</div>
+</body>
+</html>

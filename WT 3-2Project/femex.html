@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>femex</title>
+<style>
+ /*body {
+        font-family: "Baloo Bhai", cursive;
+        color: black;
+        margin-left: auto;
+        padding: 70px;
+        background: url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        background-position: center;
+} */
+body{
+    background-color: black;
+    color: white;
+}
+
+        .left{
+        display: inline-block;
+        position: fixed;
+        left: 34px;
+        top: 20px;
+
+        }
+        .left img{
+        width: 95px;
+        filter: invert(100%);
+        }
+        .left.div{
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+        }
+        .logo {
+position: absolute;
+top: 20px;
+left: 20px;
+width: 100px;
+height: 100px;
+background-image: url("gym.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+/* img {
+position: absolute;
+top: -2px;
+left: -13px;
+height: 100px;
+width: auto;
+} */
+.gif-line {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.gif-line img {
+			margin: 10px 0;
+			max-width: 100%;
+			height: auto;
+		}
+        @media screen and (min-width: 768px) {
+			.gif-line {
+				flex-direction: column;
+				justify-content: center;
+			}
+
+			.gif-line img {
+				margin: 0 10px;
+				max-width: 25%;
+			}
+		}
+
+        .header1 {
+          background-color: black;
+          position:fixed;
+          top:0;
+          right:0;
+          transform:translate(-1%,0);
+          color:white;
+         
+          
+        }
+        button{
+            font-family: 'Baloo Bhai',cursive;
+        /* margin: -1px 9px; */
+        color: skyblue;
+        background-color: red;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        }
+</style>
+</head>
+<body>
+    <div style = "position:fixed; left:24px; top:119px;color:white; font-family: 'Baloo Bhai',cursive;">
+       <strong>Gym Visuals</strong>
+     </div>
+    <header class="header">
+        <!--left box for logo-->
+
+
+        <div class="left">
+        <img src="gym.png" alt="" class="src">
+       
+        </div>
+    </header>
+
+    <div class="header1">
+        <h1>Timer for your Exercise</h1>
+        <label for="timer-input">Set Timer (in seconds):</label>
+        <input type="number" id="timer-input">
+        <button id="start-btn">Start Timer</button>
+        <!-- <audio id="start-sound" src="start-sound.mp3"></audio>
+        <audio id="end-sound" src="start-sound.mp3"></audio> -->
+        <div id="timer-display"></div>
+      </div>
+      
+    
+      <script src="timer.js"></script>
+      <center><i><h1 style="font-size: 20px;font-family:inherit;">Your age is under 17 Years, this is your growing age so </h1></i></center>
+      <center><i><h1 style="font-size: 20px;font-family:inherit;">you shouldn't lift heavy weights.</h1></i></center>
+      <center><i><h1 style="font-size: 20px;font-family:inherit;">These are Stretching Exercises For You to maintain your body!</h1></i></center>
+      <center><i><h1 style="font-size: 20px;font-family:inherit;">"Get ready to have an amazing workout!"</h1></i></center>
+      <br>
+      
+      
+      <br>
+      <br>
+
+	<div class="gif-line">
+		
+        <img src="femex1.gif" alt="GIF 1"> 
+            <div class="content">
+                <center><h2>Chin Up</h2></center>
+                <dt>CATEGORY:</dt>
+                <dd>Legs</dd>
+<dt>DESCRIPTION:</dt>
+<dd>Start with legs slightly wider than shoulder width-Drop into a bodyweight squat</dd>
+
+<dt>EQUIPMENT:</dt>
+
+<dd>Barbell</dd>
+
+<dt>PRIMARY MUSCLE:</dt>
+
+<dd>Biceps femoris</dd>
+
+<dt>DEFAULT REPS:</dt>
+<dd>10</dd>
+        </div>
+		<img src="femex2.gif" alt="GIF 2">
+        <div class="content">
+            <center><h2>Side Leg lifts
+            </h2></center> 
+            <dt>CATEGORY:</dt>
+            <dd>abs</dd>
+<dt>DESCRIPTION:</dt>
+<dd>Lying on your side, check that your ankles, knees, hips, shoulders, and ears are aligned</dd>
+<dd>Move your legs slightly in front (forming this "banana shape" helps balance and protects</dd>
+<dd> your lower back).</dd>     
+
+<dt>EQUIPMENT:</dt>
+
+<dd>none(bodyweight exercise</dd>
+
+<dt>PRIMARY MUSCLE:</dt>
+
+<dd>Obliquus externus abdominis</dd>
+
+<dt>DEFAULT REPS:</dt>
+<dd>16</dd>
+        </div>
+		<img src="femex3.gif" alt="GIF 3">
+        <div class="content">
+            <center><h2>Sit-up|Touch Toes|Pilates
+            </h2></center> 
+            <dt>CATEGORY:</dt>
+            <dd>abs</dd>
+<dt>DESCRIPTION:</dt>
+<dd>Get on a mat and lie on your back. Contract your abs, stretch your legs out horizontally.</dd>
+<dd> Perform a sit-up and touch your toes (or as close as possible) Make sure your lower back </dd>
+<dd>remains in contact with the mat. </dd>
+
+<dt>EQUIPMENT:</dt>
+
+<dd>Gym mat</dd>
+
+<dt>PRIMARY MUSCLE:</dt>
+
+<dd>Rectus abdominis</dd>
+
+<dt>DEFAULT REPS:</dt>
+<dd>15</dd>
+        </div>
+        <img src="femex4.gif" alt="GIF 4">
+        <div class="content">
+            <center><h2>Rowing,Seated
+
+            </h2></center> 
+            <dt>CATEGORY:</dt>
+            <dd>back</dd>
+<dt>DESCRIPTION:</dt>
+<dd>Row on rower - 4 sets | 2 min. 30 sec. each set | set 1 (low resistance) - set 2 (medium resistance)</dd>
+<dd>- set 3 (low resistance) - set 4 (medium resistance)</dd>     
+
+
+<dt>EQUIPMENT:</dt>
+
+<dd>none(bodyweight exercise</dd>
+
+<dt>PRIMARY MUSCLE:</dt>
+
+<dd>Quadriceps
+
+</dd>
+
+<dt>DEFAULT REPS:</dt>
+<dd>4</dd>
+        </div>
+	</div>
+</body>
+</html>
+</body>
+</html>

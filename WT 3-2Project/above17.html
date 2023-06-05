@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Above17</title>
+<style>
+body {
+        font-family: "Baloo Bhai", cursive;
+        color: black;
+        margin-left: -900px;
+        padding: 70px;
+        /* background-color:white; */
+        background-image: url(above.jpg);
+                background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        background-position: center;
+
+}
+        .left{
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+
+        }
+        .left img{
+        width: 95px;
+        filter: invert(100%);
+        }
+        .left.div{
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+        }
+        .logo {
+position: absolute;
+top: 20px;
+left: 20px;
+width: 100px;
+height: 100px;
+background-image: url("img/gym.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+/* img {
+position: absolute;
+top: -2px;
+left: -13px;
+height: 100px;
+width: auto;
+} */
+.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+		#button {
+  margin: 10px;
+  padding: 70px 70px;
+  background-color:pink;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease; 
+}
+
+#button:hover {
+  background-color: #2fea45;
+}
+
+#button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #007bff;
+}
+
+#button:active {
+  background-color: #005cbf;
+}
+/* .image-button {
+  border: none;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+} */
+
+#first{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;       
+  background-color:darkcyan;
+  text-shadow: 2px 2px red;
+  display: inline-block;
+  font-size: 45px;
+  border-radius: 25PX; 
+}
+
+.success-stories {
+  margin-top: 43px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.story {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+  color:white;
+  box-shadow: 
+    0 0 10px black,
+    0 0 10px #00ff00,
+    0 0 10px #0000ff;
+}
+.story:hover {
+  transform: translateY(-5px);
+}
+
+/* .story h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333333;
+} */
+
+.story figure {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555555;
+}
+@media (max-width: 768px) {
+  
+  /* .success-stories .story h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  } */
+  
+  .success-stories .story figure {
+    font-size: 14px;
+  }
+}
+
+.figureitems{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Three columns */
+  grid-gap: 10px; /* Gap between items */
+}
+
+.item {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: end;
+  border: 1px solid #000;
+  padding: 46px;
+  border-radius: 8px;
+  background-color:darkcyan;
+  box-shadow: 0 0 10px rgba(159, 2, 2, 0.1);
+  transition: transform 0.3s ease;
+  color:white;
+  box-shadow: 
+    0 0 10px rgb(43, 200, 8),
+    0 0 10px rgb(238, 4, 4),
+    0 0 10px rgb(206, 175, 175);
+}
+  
+
+
+.item:hover {
+  transform: translateY(-5px);
+}
+.item:nth-child(5),
+.item:nth-child(6),
+.item:nth-child(7) {
+  grid-column: span 1; /* Span one column for the 4th, 5th, 6th, and 7th items */
+}
+figcaption {
+  margin-top: 5px;
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div style = "position:absolute; left:24px; top:119px;color:black; font-family: 'Baloo Bhai',cursive;">
+       <strong>Gym Visuals</strong>
+     </div>
+    <header class="header">
+        <!--left box for logo-->
+
+        <div class="left">
+        <img src="gym.png" alt="" class="src" style=position:absolute;top:-2px;left:-13px;height:100px;width:auto;>
+
+        
+
+
+        <section>
+          <center><h1 id="first"> DON'T STOP WHEN IT HURTS, <br> STOP WHEN YOU CAN'T ANYMORE. </h1></center>
+        </section>
+        
+        <br>
+
+        <div class="figureitems">
+            <figure class="item"><img src="biceps4.gif" width="200" height="200"><a href="Biceps.html"><figcaption style="color:white;font-family:Calibri;font-size:20px"><b>BICEPS</b></figcaption></a></figure>
+    <figure class="item"><img src="tricep1.gif" width="200" height="200"><a href="tricep.html"><figcaption style="color:white;font-family:Calibri;font-size:20px"><b>TRICEPS</b></figcaption></a></figure> 
+    <figure class="item"><img src="upper1.gif" width="200" height="200"><a href="upper.html"><figcaption style="color:white;font-family:Calibri;font-size:20px"><b>UPPER BODY <br>STRENGTH</b></figcaption></a></figure> 
+    <figure class="item"><img src="lower1.gif" width="200" height="200"><a href="lower body strength.html"><figcaption style="color:white;font-family:Calibri;font-size:20px"><b>LOWER BODY<br> STRENGTH</b></figcaption></a></figure>
+    <figure class="item"><img src="chest1.gif" width="200" height="200"><a href="chest.html"><figcaption style="color:white;font-family:Calibri;font-size:20px"><b>CHEST</b></figcaption></a></figure> 
+    <figure class="item"><img src="corex1.gif" width="200" height="200"><a href="corex.html"><figcaption style="color:white;font-family:Calibri;font-size:20px"><b>COREX</b></figcaption></a></figure>
+    <figure class="item"><img src="leg1.gif" width="200" height="200"><a href="leg.html"><figcaption style="color:white;font-family:Calibri;font-size:20px"><b>LEG</b></figcaption></a></figure>           
+</div>
+
+
+
+
+         <!-- <div class="container">
+            <figure><img src="biceps4.gif" width="200" height="200"><a href="Biceps.html"><center><figcaption style="color:black;font-family:Calibri;font-size:20px"><b>BICEPS</b></figcaption></center></a></figure>
+            <figure><img src="tricep1.gif" width="200" height="200"><a href="tricep.html"><center><figcaption style="color:black;font-family:Calibri;font-size:20px"><b>TRICEPS</b></figcaption></center></a></figure> 
+            <figure><img src="upper1.gif" width="200" height="200"><a href="upper.html"><center><figcaption style="color:black;font-family:Calibri;font-size:20px"><b>UPPER BODY <br>STRENGTH</b></figcaption></center></a></figure> 
+            <figure><img src="lower1.gif" width="200" height="200"><a href="lower body strength.html"><center><figcaption style="color:black;font-family:Calibri;font-size:20px"><b>LOWER BODY<br> STRENGTH</b></figcaption></center></a></figure>
+            <figure><img src="chest1.gif" width="200" height="200"><a href="chest.html"><center><figcaption style="color:black;font-family:Calibri;font-size:20px"><b>CHEST</b></figcaption></center></a></figure> 
+            <figure><img src="corex1.gif" width="200" height="200"><a href="corex.html"><center><figcaption style="color:black;font-family:Calibri;font-size:20px"><b>COREX</b></figcaption></center></a></figure>
+            <figure><img src="leg1.gif" width="200" height="200"><a href="leg.html"><center><figcaption style="color:black;font-family:Calibri;font-size:20px"><b>LEG</b></figcaption></center></a></figure>           
+        </div>  -->
+      </div>
+    
+    </header>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Map</title>
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+        body{
+        font-family: "Baloo Bhai", cursive;
+        color: black;
+        margin: 0px;
+        padding: 251px;
+        background: url("location.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        background-position: center;
+
+    }
+    button {
+  margin: 10px;
+  padding: 16px 28px;
+  background-color:blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease; 
+}
+
+button:hover {
+  background-color: #2fea45;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #007bff;
+}
+
+button:active {
+  background-color: #005cbf;
+}
+input[type="text"] {
+    padding: 12px 62px;
+    border-radius: 12px;
+}
+    </style>
+</head>
+
+<body>
+    <input type="text" id="place-input">
+    <button type="button" onclick="searchMyGym()">Search gyms</button>
+    <script>
+        const placeValue = document.getElementById('place-input');
+        function searchMyGym() {
+            const place = placeValue.value;
+            window.location.href = `http://maps.google.com/?q=${encodeURI('gyms near ' + place)}`;
+        }
+    </script>
+</body>
+
+</html>

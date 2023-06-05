@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>chest</title>
+<style>
+ /*body {
+        font-family: "Baloo Bhai", cursive;
+        color: black;
+        margin-left: auto;
+        padding: 70px;
+        background: url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        background-position: center;
+} */
+body{
+    background-color: black;
+    color: white;
+}
+
+        .left{
+        display: inline-block;
+        position: fixed;
+        left: 34px;
+        top: 20px;
+
+        }
+        .left img{
+        width: 95px;
+        filter: invert(100%);
+        }
+        .left.div{
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+        }
+        .logo {
+position: absolute;
+top: 20px;
+left: 20px;
+width: 100px;
+height: 100px;
+background-image: url("gym.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+/* img {
+position: absolute;
+top: -2px;
+left: -13px;
+height: 100px;
+width: auto;
+} */
+.gif-line {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.gif-line img {
+			margin: 10px 0;
+			max-width: 100%;
+			height: auto;
+		}
+        @media screen and (min-width: 768px) {
+			.gif-line {
+				flex-direction: column;
+				justify-content: center;
+			}
+
+			.gif-line img {
+				margin: 0 10px;
+				max-width: 25%;
+			}
+		}
+
+        
+        .header1 {
+          background-color: black;
+          position:fixed;
+          top:0;
+          right:0;
+          transform:translate(-1%,0);
+          color:white;
+         
+          
+        }
+        button{
+            font-family: 'Baloo Bhai',cursive;
+        /* margin: -1px 9px; */
+        color: skyblue;
+        background-color: red;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        }
+
+</style>
+</head>
+<body>
+    <div style = "position:fixed; left:24px; top:119px;color:white; font-family: 'Baloo Bhai',cursive;">
+       <strong>Gym Visuals</strong>
+     </div>
+    <header class="header">
+        <!--left box for logo-->
+
+        <div class="left">
+        <img src="gym.png" alt="" class="src">
+       
+        </div>
+    </header> 
+    <div class="header1">
+        <h1>Timer for your Exercise</h1>
+        <label for="timer-input">Set Timer (in seconds):</label>
+        <input type="number" id="timer-input">
+        <button id="start-btn">Start Timer</button>
+        <!-- <audio id="start-sound" src="start-sound.mp3"></audio>
+        <audio id="end-sound" src="start-sound.mp3"></audio> -->
+        <div id="timer-display"></div>
+      </div>
+      
+    
+      <script src="timer.js"></script>
+      <center><u><i><h1 style="font-size: 94px;font-family:inherit;">Chest</h1></i></u></center>
+      <br>
+      <br>
+
+	<div class="gif-line">
+		
+        <img src="chest1.gif" alt="GIF 1"> 
+            <div class="content">
+                <center><h2>Chin Up</h2></center>
+                <dt>CATEGORY:</dt>
+                <dd>chest</dd>
+<dt>DESCRIPTION:</dt>
+<dd>Assume a suport position perform a push up,make sure to engage your core while </dd><dd>performing each repetition</dd>
+
+<dt>EQUIPMENT:</dt>
+
+<dd>none(bodyweight exercise)</dd>
+
+<dt>PRIMARY MUSCLE:</dt>
+
+<dd>Pectorails major</dd>
+
+<dt>DEFAULT REPS:</dt>
+<dd>10</dd>
+        </div>
+        <br>
+		<img src="chest2.gif" alt="GIF 2">
+        <div class="content">
+            <center><h2>Bench press Dumbells
+            </h2></center> 
+            <dt>CATEGORY:</dt>
+            <dd>chest</dd>
+<dt>DESCRIPTION:</dt>
+<dd>The movement is very similar to benchpressing with a barbell, however, the weight is </dd>
+<dd>brought down to the chest at a lower point.</dd>     
+
+<dt>EQUIPMENT:</dt>
+
+<dd>Bench</dd>
+
+<dt>PRIMARY MUSCLE:</dt>
+
+<dd>Pectorails major</dd>
+
+<dt>DEFAULT REPS:</dt>
+<dd>7</dd>
+        </div>
+        <br>
+		<img src="chest3.gif" alt="GIF 3">
+        <div class="content">
+            <center><h2>Ring Dips
+            </h2></center> 
+            <dt>CATEGORY:</dt>
+            <dd>chest</dd>
+<dt>DESCRIPTION:</dt>
+<dd>Ring Dips. These are a challenge. They require/develop good stabilizer muscles. A dip is  </dd>
+<dd>an upper-body strength exercise. Narrow, shoulder-width dips primarily train the triceps, </dd>
+<dd>with major synergists being the anterior deltoid</dd>     
+
+
+<dt>EQUIPMENT:</dt>
+
+<dd>none(bodyweight exercise)</dd>
+
+<dt>PRIMARY MUSCLE:</dt>
+
+<dd>Pectorails major</dd>
+
+<dt>DEFAULT REPS:</dt>
+<dd>10</dd>
+        </div>
+        <br>
+        <img src="chest4.gif" alt="GIF 4">
+        <div class="content">
+            <center><h2>Flat bench press
+
+            </h2></center> 
+            <dt>CATEGORY:</dt>
+            <dd>chest</dd>
+<dt>DESCRIPTION:</dt>
+<dd>On you bench press rack of choice, set-up in flat configuration, use a barbell to press up </dd>
+<dd>and down, make sure to have a spotter.</dd>     
+
+
+<dt>EQUIPMENT:</dt>
+
+<dd>Barbell</dd>
+
+<dt>PRIMARY MUSCLE:</dt>
+
+<dd>Pectorails major
+
+</dd>
+
+<dt>DEFAULT REPS:</dt>
+<dd>8</dd>
+        </div>
+	</div>
+</body>
+</html>
+</body>
+</html>
